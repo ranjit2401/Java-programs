@@ -1,0 +1,19 @@
+interface Floatsum
+{
+    public void SUM();
+}
+public class ADD_FLOAT implements Floatsum
+{
+    public void SUM()
+    {
+        float x = 0.45f;
+        float y = 0.85f;
+        float z = x+y;
+        System.out.println("The sum of two numbers = "+ z);
+    }
+    public static void main(String[] args)
+    {
+        ADD_FLOAT o = new ADD_FLOAT();
+        o.SUM();
+    }
+}
