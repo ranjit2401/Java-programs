@@ -1,0 +1,14 @@
+class floataddition
+{
+    float x = 1.65.f;
+    float y = 2.25.f;
+}
+public class Add_Float extends floataddition
+{
+    float z = x + y;
+    public static void main(string args[])
+    {
+        Add_Float 0 = new Add_Float();
+        System.out.print("The sum of two numbers = "+ o.z);
+    }
+}
